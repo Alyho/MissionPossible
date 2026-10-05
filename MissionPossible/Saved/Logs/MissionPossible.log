@@ -6257,3 +6257,324 @@ Script call stack:
 [2026.10.05-06.09.31:957][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
 [2026.10.05-06.09.32:180][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_70
 [2026.10.05-06.09.38:869][355]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2026.10.05-06.19.37:390][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2026.10.05-06.20.42:352][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2026.10.05-06.20.45:466][724]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.05-06.20.45:479][724]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.10.05-06.20.45:479][724]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.10.05-06.20.45:481][724]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.469 ms (total: 165.746 ms)
+[2026.10.05-06.20.45:482][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.05-06.20.45:529][724]LogPlayLevel: Creating play world package: /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.20.45:534][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004915s)
+[2026.10.05-06.20.45:534][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Alyssa/FirstPersonMap.FirstPersonMap to /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005004s)
+[2026.10.05-06.20.45:569][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2026.10.05-06.20.45:577][724]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.10.05-06.20.45:580][724]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.05-06.20.45:580][724]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.05-06.20.45:580][724]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.05-06.20.45:580][724]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.05-06.20.45:581][724]LogWorldPartition: Display: WorldPartition initialize took 1.640 ms (total: 1.09 sec)
+[2026.10.05-06.20.45:581][724]LogPlayLevel: PIE: World Init took: (0.004242s)
+[2026.10.05-06.20.45:583][724]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.05-06.20.45:583][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.10.05-06.20.45:583][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.05-06.20.45:583][724]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.05-06.20.45:583][724]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.05-06.20.45:583][724]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.05-06.20.45:588][724]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.05-06.20.45:652][724]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.10.05-06.20.45:652][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.05-06.20.45:652][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.05-06.20.45:652][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.05-06.20.45:653][724]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2026.10.05-06.20.45:653][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2026.10.05-06.20.45:658][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2026.10.05-06.20.45:658][724]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2026.10.05-06.20.45:658][724]LogInit: FAudioDevice initialized with ID 61.
+[2026.10.05-06.20.45:658][724]LogAudio: Display: Audio Device (ID: 61) registered with world 'FirstPersonMap'.
+[2026.10.05-06.20.45:658][724]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2026.10.05-06.20.45:663][724]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.10.05-06.20.45:665][724]LogWorld: Bringing World /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2026.10.04-23.20.45
+[2026.10.05-06.20.45:666][724]LogWorld: Bringing up level for play took: 0.002869
+[2026.10.05-06.20.45:669][724]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2026.10.05-06.20.45:674][724]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByInterface_ReturnValue' of length 0 in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter'!
+[2026.10.05-06.20.45:674][724]LogScript: Warning: Script Msg called by: BP_FirstPersonCharacter_C /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonCharacter_C_0
+[2026.10.05-06.20.45:675][724]PIE: Server logged in
+[2026.10.05-06.20.45:677][724]PIE: Play in editor total start time 0.198 seconds.
+[2026.10.05-06.20.47:533][810]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.20.47:533][810]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.10.05-06.20.47:533][810]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.05-06.20.56:677][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.20.56:677][349]LogWorld: BeginTearingDown for /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.20.56:678][349]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.05-06.20.56:678][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.20.56:678][349]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.10.05-06.20.56:687][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.05-06.20.56:697][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.20.56:734][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.05-06.20.56:734][349]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2026.10.05-06.20.56:734][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2026.10.05-06.20.56:738][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2026.10.05-06.20.56:745][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.20.56:751][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2026.10.05-06.20.56:904][350]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2026.10.05-06.22.25:904][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2026.10.05-06.22.25:909][554]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Alyssa/FirstPersonMap' took 0.039
+[2026.10.05-06.22.25:909][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Alyssa/Dialogue/BP_DialogueComponent] ([2] browsable assets)...
+[2026.10.05-06.22.25:909][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alyssa/Dialogue/BP_DialogueComponent]
+[2026.10.05-06.22.25:955][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Alyssa/Dialogue/BP_DialogueComponent_Auto8
+[2026.10.05-06.22.25:955][554]LogSavePackage: Error: Cannot remove '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_DialogueComponent_Auto8.uasset' as it is read only!
+[2026.10.05-06.22.25:955][554]LogSavePackage: Error: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_DialogueComponent_Auto8.uasset'
+[2026.10.05-06.22.25:955][554]Warning: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_DialogueComponent_Auto8.uasset'
+[2026.10.05-06.28.15:167][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2026.10.05-06.33.53:469][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2026.10.05-06.33.53:511][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX_Auto8
+[2026.10.05-06.33.53:511][950]LogSavePackage: Error: Cannot remove '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX_Auto8.uasset' as it is read only!
+[2026.10.05-06.33.53:511][950]LogSavePackage: Error: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX_Auto8.uasset'
+[2026.10.05-06.33.53:511][950]Warning: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX_Auto8.uasset'
+[2026.10.05-06.33.53:512][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Alyssa/Dialogue/BP_NPC] ([2] browsable assets)...
+[2026.10.05-06.33.53:512][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alyssa/Dialogue/BP_NPC]
+[2026.10.05-06.33.53:512][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alyssa/Dialogue/BP_NPC" FILE="../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_NPC_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2026.10.05-06.33.53:517][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Alyssa/Dialogue/BP_NPC_Auto8
+[2026.10.05-06.33.53:517][950]LogSavePackage: Error: Cannot remove '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_NPC_Auto8.uasset' as it is read only!
+[2026.10.05-06.33.53:517][950]LogSavePackage: Error: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_NPC_Auto8.uasset'
+[2026.10.05-06.33.53:517][950]Warning: Error saving '../../../../CAClash/MissionPossible/MissionPossible/Saved/Autosaves/Game/Alyssa/Dialogue/BP_NPC_Auto8.uasset'
+[2026.10.05-06.35.10:801][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2026.10.05-06.35.13:446][ 55]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.05-06.35.13:459][ 55]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.10.05-06.35.13:459][ 55]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.10.05-06.35.13:461][ 55]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.445 ms (total: 168.192 ms)
+[2026.10.05-06.35.13:462][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.05-06.35.13:462][ 55]LogPlayLevel: Creating play world package: /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.35.13:466][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004751s)
+[2026.10.05-06.35.13:466][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Alyssa/FirstPersonMap.FirstPersonMap to /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004814s)
+[2026.10.05-06.35.13:509][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2026.10.05-06.35.13:515][ 55]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.10.05-06.35.13:518][ 55]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.05-06.35.13:518][ 55]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.05-06.35.13:518][ 55]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.05-06.35.13:518][ 55]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.05-06.35.13:519][ 55]LogWorldPartition: Display: WorldPartition initialize took 1.826 ms (total: 1.10 sec)
+[2026.10.05-06.35.13:519][ 55]LogPlayLevel: PIE: World Init took: (0.004717s)
+[2026.10.05-06.35.13:522][ 55]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.05-06.35.13:522][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.10.05-06.35.13:522][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.05-06.35.13:522][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.05-06.35.13:522][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.05-06.35.13:522][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.05-06.35.13:527][ 55]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.05-06.35.13:597][ 55]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.10.05-06.35.13:598][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.05-06.35.13:598][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.05-06.35.13:598][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.05-06.35.13:600][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2026.10.05-06.35.13:600][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2026.10.05-06.35.13:603][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2026.10.05-06.35.13:603][ 55]LogInit: FAudioDevice initialized with ID 62.
+[2026.10.05-06.35.13:603][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2026.10.05-06.35.13:603][ 55]LogAudio: Display: Audio Device (ID: 62) registered with world 'FirstPersonMap'.
+[2026.10.05-06.35.13:603][ 55]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2026.10.05-06.35.13:607][ 55]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.10.05-06.35.13:609][ 55]LogWorld: Bringing World /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2026.10.04-23.35.13
+[2026.10.05-06.35.13:610][ 55]LogWorld: Bringing up level for play took: 0.002688
+[2026.10.05-06.35.13:614][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2026.10.05-06.35.13:619][ 55]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByInterface_ReturnValue' of length 0 in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter'!
+[2026.10.05-06.35.13:619][ 55]LogScript: Warning: Script Msg called by: BP_FirstPersonCharacter_C /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonCharacter_C_0
+[2026.10.05-06.35.13:621][ 55]PIE: Server logged in
+[2026.10.05-06.35.13:622][ 55]PIE: Play in editor total start time 0.163 seconds.
+[2026.10.05-06.35.15:298][142]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.35.15:298][142]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.10.05-06.35.15:298][142]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.05-06.35.29:016][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.35.29:016][956]LogWorld: BeginTearingDown for /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.35.29:016][956]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.05-06.35.29:017][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.35.29:017][956]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.10.05-06.35.29:026][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.05-06.35.29:035][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.35.29:071][956]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.05-06.35.29:071][956]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2026.10.05-06.35.29:071][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2026.10.05-06.35.29:075][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2026.10.05-06.35.29:083][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.35.29:087][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2026.10.05-06.35.29:251][957]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2026.10.05-06.37.34:700][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2026.10.05-06.37.37:607][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.05-06.37.37:617][607]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.10.05-06.37.37:617][607]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.10.05-06.37.37:620][607]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.370 ms (total: 170.563 ms)
+[2026.10.05-06.37.37:620][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.05-06.37.37:648][607]LogPlayLevel: Creating play world package: /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.37.37:653][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004485s)
+[2026.10.05-06.37.37:653][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Alyssa/FirstPersonMap.FirstPersonMap to /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004586s)
+[2026.10.05-06.37.37:686][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2026.10.05-06.37.37:693][607]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.10.05-06.37.37:695][607]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.05-06.37.37:695][607]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.05-06.37.37:695][607]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.05-06.37.37:695][607]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.05-06.37.37:697][607]LogWorldPartition: Display: WorldPartition initialize took 1.512 ms (total: 1.10 sec)
+[2026.10.05-06.37.37:697][607]LogPlayLevel: PIE: World Init took: (0.003908s)
+[2026.10.05-06.37.37:698][607]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.05-06.37.37:698][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.10.05-06.37.37:698][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.05-06.37.37:698][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.05-06.37.37:698][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.05-06.37.37:698][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.05-06.37.37:701][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.05-06.37.37:760][607]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.10.05-06.37.37:760][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.05-06.37.37:760][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.05-06.37.37:760][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.05-06.37.37:761][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2026.10.05-06.37.37:761][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2026.10.05-06.37.37:764][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2026.10.05-06.37.37:764][607]LogInit: FAudioDevice initialized with ID 63.
+[2026.10.05-06.37.37:764][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2026.10.05-06.37.37:764][607]LogAudio: Display: Audio Device (ID: 63) registered with world 'FirstPersonMap'.
+[2026.10.05-06.37.37:764][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2026.10.05-06.37.37:768][607]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.10.05-06.37.37:770][607]LogWorld: Bringing World /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2026.10.04-23.37.37
+[2026.10.05-06.37.37:771][607]LogWorld: Bringing up level for play took: 0.002277
+[2026.10.05-06.37.37:775][607]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2026.10.05-06.37.37:779][607]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByInterface_ReturnValue' of length 0 in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter'!
+[2026.10.05-06.37.37:779][607]LogScript: Warning: Script Msg called by: BP_FirstPersonCharacter_C /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonCharacter_C_0
+[2026.10.05-06.37.37:781][607]PIE: Server logged in
+[2026.10.05-06.37.37:782][607]PIE: Play in editor total start time 0.165 seconds.
+[2026.10.05-06.37.39:940][724]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.37.39:940][724]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.10.05-06.37.39:940][724]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.05-06.37.49:036][265]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.10.05-06.37.49:036][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.10.05-06.37.51:919][436]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.37.51:919][436]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.10.05-06.37.52:306][459]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.10.05-06.37.52:306][459]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.10.05-06.37.52:658][480]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.37.52:658][480]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.10.05-06.37.53:212][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.37.53:212][511]LogWorld: BeginTearingDown for /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.37.53:212][511]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.05-06.37.53:214][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.37.53:214][511]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.10.05-06.37.53:223][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.05-06.37.53:232][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.37.53:268][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.05-06.37.53:268][511]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2026.10.05-06.37.53:268][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2026.10.05-06.37.53:272][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2026.10.05-06.37.53:280][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.37.53:284][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2026.10.05-06.37.53:431][512]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2026.10.05-06.37.54:944][583]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.05-06.37.54:956][583]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.10.05-06.37.54:956][583]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.10.05-06.37.54:958][583]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.505 ms (total: 173.068 ms)
+[2026.10.05-06.37.54:958][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.05-06.37.54:958][583]LogPlayLevel: Creating play world package: /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.37.54:964][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004869s)
+[2026.10.05-06.37.54:964][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Alyssa/FirstPersonMap.FirstPersonMap to /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004930s)
+[2026.10.05-06.37.55:005][583]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2026.10.05-06.37.55:009][583]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.10.05-06.37.55:011][583]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.05-06.37.55:012][583]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.05-06.37.55:012][583]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.05-06.37.55:012][583]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.05-06.37.55:013][583]LogWorldPartition: Display: WorldPartition initialize took 1.821 ms (total: 1.10 sec)
+[2026.10.05-06.37.55:013][583]LogPlayLevel: PIE: World Init took: (0.004589s)
+[2026.10.05-06.37.55:015][583]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.05-06.37.55:015][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.10.05-06.37.55:015][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.05-06.37.55:015][583]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.05-06.37.55:015][583]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.05-06.37.55:015][583]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.05-06.37.55:019][583]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.05-06.37.55:087][583]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.10.05-06.37.55:087][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.05-06.37.55:088][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.05-06.37.55:088][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.05-06.37.55:088][583]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2026.10.05-06.37.55:088][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2026.10.05-06.37.55:092][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2026.10.05-06.37.55:092][583]LogInit: FAudioDevice initialized with ID 64.
+[2026.10.05-06.37.55:092][583]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2026.10.05-06.37.55:093][583]LogAudio: Display: Audio Device (ID: 64) registered with world 'FirstPersonMap'.
+[2026.10.05-06.37.55:093][583]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2026.10.05-06.37.55:096][583]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.10.05-06.37.55:099][583]LogWorld: Bringing World /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2026.10.04-23.37.55
+[2026.10.05-06.37.55:100][583]LogWorld: Bringing up level for play took: 0.002539
+[2026.10.05-06.37.55:104][583]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2026.10.05-06.37.55:108][583]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByInterface_ReturnValue' of length 0 in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter'!
+[2026.10.05-06.37.55:108][583]LogScript: Warning: Script Msg called by: BP_FirstPersonCharacter_C /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonCharacter_C_0
+[2026.10.05-06.37.55:109][583]PIE: Server logged in
+[2026.10.05-06.37.55:111][583]PIE: Play in editor total start time 0.155 seconds.
+[2026.10.05-06.37.56:841][671]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.05-06.37.56:841][671]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.10.05-06.37.56:841][671]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.05-06.38.06:325][192]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.10.05-06.38.06:326][192]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.10.05-06.38.07:560][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.38.07:560][263]LogWorld: BeginTearingDown for /Game/Alyssa/UEDPIE_0_FirstPersonMap
+[2026.10.05-06.38.07:561][263]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.05-06.38.07:561][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.38.07:561][263]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Alyssa/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.10.05-06.38.07:570][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.05-06.38.07:580][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.05-06.38.07:616][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.05-06.38.07:616][263]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2026.10.05-06.38.07:616][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2026.10.05-06.38.07:620][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2026.10.05-06.38.07:634][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2026.10.05-06.38.07:921][264]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2026.10.05-06.38.11:285][406]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2026.10.05-06.38.14:055][406]LogSlate: Window 'Check Out Assets' being destroyed
+[2026.10.05-06.38.14:075][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.05-06.38.14:288][406]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Alyssa/Dialogue/BP_DialogueComponent] ([2] browsable assets)...
+[2026.10.05-06.38.14:288][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alyssa/Dialogue/BP_DialogueComponent]
+[2026.10.05-06.38.14:288][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alyssa/Dialogue/BP_DialogueComponent" FILE="../../../../CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_DialogueComponent.uasset" SILENT=true
+[2026.10.05-06.38.14:332][406]LogSavePackage: Moving output files for package: /Game/Alyssa/Dialogue/BP_DialogueComponent
+[2026.10.05-06.38.14:333][406]LogSavePackage: Moving '../../../../CAClash/MissionPossible/MissionPossible/Saved/BP_DialogueComponent2D44EE594AB03F01BBAE32AE80CA0145.tmp' to '../../../../CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_DialogueComponent.uasset'
+[2026.10.05-06.38.14:335][406]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Alyssa/Dialogue/BP_NPC] ([2] browsable assets)...
+[2026.10.05-06.38.14:335][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alyssa/Dialogue/BP_NPC]
+[2026.10.05-06.38.14:335][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alyssa/Dialogue/BP_NPC" FILE="../../../../CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_NPC.uasset" SILENT=true
+[2026.10.05-06.38.14:341][406]LogSavePackage: Moving output files for package: /Game/Alyssa/Dialogue/BP_NPC
+[2026.10.05-06.38.14:342][406]LogSavePackage: Moving '../../../../CAClash/MissionPossible/MissionPossible/Saved/BP_NPC59CC12AF49B5BA06B274D59B3ECA1221.tmp' to '../../../../CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_NPC.uasset'
+[2026.10.05-06.38.14:345][406]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX
+[2026.10.05-06.38.14:346][406]LogSavePackage: Moving '../../../../CAClash/MissionPossible/MissionPossible/Saved/SIRBY6NL4BE5FK8YJ7REZX55528964406D3D4DA1BAEEB7C696713E.tmp' to '../../../../CAClash/MissionPossible/MissionPossible/Content/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX.uasset'
+[2026.10.05-06.38.14:373][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 297.482 ms (total: 7.19 sec)
+[2026.10.05-06.38.14:577][406]LogContentValidation: Display: Starting to validate 3 assets
+[2026.10.05-06.38.14:577][406]LogContentValidation: Enabled validators:
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.05-06.38.14:577][406]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.05-06.38.14:578][406]AssetCheck: /Game/Alyssa/Dialogue/BP_DialogueComponent Validating asset
+[2026.10.05-06.38.14:578][406]AssetCheck: /Game/Alyssa/Dialogue/BP_NPC Validating asset
+[2026.10.05-06.38.14:578][406]AssetCheck: /Game/Alyssa/FirstPersonMap Validating asset
