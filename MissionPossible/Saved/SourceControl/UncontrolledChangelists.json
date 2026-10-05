@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/CAClash/MissionPossible/MissionPossible/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP__Interact.uasset",
 				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_DialogueComponent.uasset",
 				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_NPC.uasset",
 				"D:/CAClash/MissionPossible/MissionPossible/Content/FirstPerson/Input/Actions/IA_Interact.uasset",
@@ -15,7 +14,11 @@
 				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP_Interact.uasset",
 				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/DT_Dialogue.uasset",
 				"D:/CAClash/MissionPossible/MissionPossible/Content/__ExternalActors__/Alyssa/FirstPersonMap/B/JG/SIRBY6NL4BE5FK8YJ7REZX.uasset",
-				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/ST_Dialogue.uasset"
+				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/ST_Dialogue.uasset",
+				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/WID_Dialogue.uasset",
+				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/ST_OptionsDialogue.uasset",
+				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/WID_Options.uasset",
+				"D:/CAClash/MissionPossible/MissionPossible/Content/Alyssa/Dialogue/BP__Interact.uasset"
 			]
 		}
 	]
