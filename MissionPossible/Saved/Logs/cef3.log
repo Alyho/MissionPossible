@@ -38,3 +38,5 @@
 [1005/142248.228:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
 [1005/142248.229:ERROR:audio_rtp_receiver.cc(88)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
 [1005/142431.827:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1005/154147.933:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1005/154147.972:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
